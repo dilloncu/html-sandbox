@@ -1,11 +1,57 @@
-.photobackground {
-    background-color: whitesmoke;
-    width: 200px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
+* {
+    box-sizing: border-box;
 }
 
-.dbg {
-    background-color: whitesmoke;
+
+
+.photobackground1 {
+    background-color: lightgrey;
+    width: 628px;
+    height: 10px;
+    padding: 50px;
+    margin: 1%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    height: 5px;
+  }
+
+
+.b {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    float: left;
+    width: 15%;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+
+header {
+    background-color: lightgrey;
+    width: 628px;
+    height: 10px;
+    padding: 60px;
+    margin: 1%;;
+}
+
+
+footer {
+    background-color: lightgrey;
+    width: 628px;
+    height: 2px;
+    padding: 20px;
+    margin: 1%;
+}
+
+
+.trade {
+    width: 628px;
+    height: 2px;
+    padding: 20px;
+    margin: 1%;
 }
