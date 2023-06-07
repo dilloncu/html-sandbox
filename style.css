@@ -1,0 +1,11 @@
+.photobackground {
+    background-color: whitesmoke;
+    width: 200px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+}
+
+.dbg {
+    background-color: whitesmoke;
+}
