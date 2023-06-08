@@ -1,57 +1,56 @@
-* {
+*{
+    margin: 5px;
     box-sizing: border-box;
 }
-
-
-
-.photobackground1 {
-    background-color: lightgrey;
-    width: 628px;
-    height: 10px;
-    padding: 50px;
-    margin: 1%;
+body{
+    height: 95vh;
+    background: lightgray;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background: whitesmoke;
+    padding: 2em 0 2em 0;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    height: 5px;
-  }
-
-
-.b {
-    display: inline-block;
-    position: relative;
-    margin: 1%;
-    float: left;
-    width: 15%;
-    height: 200px;
-    background-color: lightgrey;
+.main{
+    display: flex;
+    flex: 1;
 }
 
-
-header {
-    background-color: lightgrey;
-    width: 628px;
-    height: 10px;
-    padding: 60px;
-    margin: 1%;;
+.left{
+    background: whitesmoke;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
 }
 
+main{
+    background: whitesmoke;
+    padding: 3em 0 3em 0;
+    flex: 5 5 150px;
+}
 
-footer {
-    background-color: lightgrey;
-    width: 628px;
-    height: 2px;
-    padding: 20px;
-    margin: 1%;
+.right{
+    background: whitesmoke;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+footer{
+    background: whitesmoke;
+    padding: 1em 0 1em 0;
 }
 
 
-.trade {
-    width: 628px;
-    height: 2px;
-    padding: 20px;
-    margin: 1%;
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
 }
