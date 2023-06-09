@@ -1,6 +1,7 @@
 *{
-    margin: 5px;
+    margin: 4px;
     box-sizing: border-box;
+    padding:0;
 }
 body{
     height: 95vh;
@@ -11,10 +12,12 @@ body{
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    width:80th;
+    margin:0;
 }
-header{
+-----header{
     background: whitesmoke;
-    padding: 2em 0 2em 0;
+    padding: 0em 0 0em 0;
 }
 
 .main{
@@ -24,7 +27,7 @@ header{
 
 .left{
     background: whitesmoke;
-    padding: 3em 0 3em 0;
+    padding: 2em 0 2em 0;
     flex: 1 1 100px;
 }
 
@@ -53,4 +56,37 @@ footer{
     main{
         padding: 5em 0 5em 0;
     }
+}
+
+.nav-container{
+    background-color: whitesmoke;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side, .left-side{
+    list-style-type: none;
+}
+
+.right-side li, .left-side li{
+    display: incline-block;
+}
+
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    color:#000000;
+    padding: 10px 14px;
+    font-weight: bold;
+}
+
+.right-side li a:hover, .left-side li a:hover{
+    background-color: #ddd;
 }
